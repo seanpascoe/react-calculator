@@ -21734,32 +21734,36 @@ var Calc = React.createClass({
   },
 
   onCalc: function onCalc(operator) {
-    var firstNumber = parseFloat(this.refs.firstNumberField.state.valueOfInput);
-    var secondNumber = parseFloat(this.refs.secondNumberField.state.valueOfInput);
-    var result;
+    if (!this.refs.firstNumberField.state.valid || !this.refs.secondNumberField.state.valid) {
+      this.setState({ resultCalc: "Cannot calculate non-numbers" });
+    } else {
+      var firstNumber = parseFloat(this.refs.firstNumberField.state.valueOfInput);
+      var secondNumber = parseFloat(this.refs.secondNumberField.state.valueOfInput);
+      var result;
 
-    switch (operator) {
-      case "add":
-        result = firstNumber + secondNumber;
-        break;
-      case "sub":
-        result = firstNumber - secondNumber;
-        break;
-      case "div":
-        if (secondNumber != 0) {
-          result = firstNumber / secondNumber;
+      switch (operator) {
+        case "add":
+          result = firstNumber + secondNumber;
           break;
-        } else {
-          result = "Can't divide by 0";
+        case "sub":
+          result = firstNumber - secondNumber;
           break;
-        }
-      case "mult":
-        result = firstNumber * secondNumber;
-        break;
-      default:
-        break;
+        case "div":
+          if (secondNumber != 0) {
+            result = firstNumber / secondNumber;
+            break;
+          } else {
+            result = "Can't divide by 0";
+            break;
+          }
+        case "mult":
+          result = firstNumber * secondNumber;
+          break;
+        default:
+          break;
+      }
+      this.setState({ resultCalc: result.toString() });
     }
-    this.setState({ resultCalc: result.toString() });
   },
 
   onClear: function onClear() {
@@ -21787,8 +21791,8 @@ var Calc = React.createClass({
           React.createElement(
             'div',
             { className: 'row form-group number-field' },
-            React.createElement(NumberField, { ref: 'firstNumberField', placeholder: 'NUMBER e.g. 2643' }),
-            React.createElement(NumberField, { ref: 'secondNumberField', placeholder: 'NUMBER e.g. 6306' })
+            React.createElement(NumberField, { ref: 'firstNumberField', placeholder: 'Enter a NUMBER... e.g. 264' }),
+            React.createElement(NumberField, { ref: 'secondNumberField', placeholder: 'Enter a NUMBER... e.g. 63.06' })
           ),
           React.createElement(
             'div',
@@ -21887,7 +21891,7 @@ var NumberField = React.createClass({
   },
 
   clear: function clear() {
-    this.setState({ valueOfInput: "" });
+    this.setState({ valueOfInput: "", valid: true });
   },
 
   render: function render() {

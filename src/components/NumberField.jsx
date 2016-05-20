@@ -20,7 +20,7 @@ var NumberField = React.createClass({
   },
 
   clear: function() {
-    this.setState({valueOfInput: ""});
+    this.setState({valueOfInput: "", valid: true});
   },
 
   render: function() {

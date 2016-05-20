@@ -9,32 +9,36 @@ var Calc = React.createClass({
   },
 
   onCalc: function(operator) {
-    let firstNumber = parseFloat(this.refs.firstNumberField.state.valueOfInput);
-    let secondNumber = parseFloat(this.refs.secondNumberField.state.valueOfInput);
-    var result;
+    if (!this.refs.firstNumberField.state.valid || !this.refs.secondNumberField.state.valid) {
+      this.setState({resultCalc: "Cannot calculate non-numbers"});
+    } else {
+      let firstNumber = parseFloat(this.refs.firstNumberField.state.valueOfInput);
+      let secondNumber = parseFloat(this.refs.secondNumberField.state.valueOfInput);
+      var result;
 
-    switch (operator) {
-      case "add":
-        result = firstNumber + secondNumber;
-        break;
-      case "sub":
-        result = firstNumber - secondNumber;
-        break;
-      case "div":
-        if (secondNumber != 0) {
-          result = firstNumber / secondNumber;
+      switch (operator) {
+        case "add":
+          result = firstNumber + secondNumber;
           break;
-        } else {
-          result = "Can't divide by 0";
+        case "sub":
+          result = firstNumber - secondNumber;
           break;
-        }
-      case "mult":
-        result = firstNumber * secondNumber;
-        break;
-      default:
-        break;
+        case "div":
+          if (secondNumber != 0) {
+            result = firstNumber / secondNumber;
+            break;
+          } else {
+            result = "Can't divide by 0";
+            break;
+          }
+        case "mult":
+          result = firstNumber * secondNumber;
+          break;
+        default:
+          break;
+      }
+      this.setState({resultCalc: result.toString()});
     }
-    this.setState({resultCalc: result.toString()});
   },
 
   onClear: function() {
@@ -50,8 +54,8 @@ var Calc = React.createClass({
             <h1 className="text-center">Simple Calculator</h1>
 
               <div className="row form-group number-field">
-                <NumberField ref="firstNumberField" placeholder="NUMBER e.g. 2643" />
-                <NumberField ref="secondNumberField" placeholder="NUMBER e.g. 6306" />
+                <NumberField ref="firstNumberField" placeholder="Enter a NUMBER... e.g. 264" />
+                <NumberField ref="secondNumberField" placeholder="Enter a NUMBER... e.g. 63.06" />
               </div>
 
               <div className="row">
