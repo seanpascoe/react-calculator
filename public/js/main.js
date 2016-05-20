@@ -774,7 +774,7 @@ ReactPerf.measureMethods(CSSPropertyOperations, 'CSSPropertyOperations', {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":4,"./ReactPerf":82,"./dangerousStyleValue":114,"_process":167,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/camelizeStyleName":142,"fbjs/lib/hyphenateStyleName":153,"fbjs/lib/memoizeStringOnly":160,"fbjs/lib/warning":164}],6:[function(require,module,exports){
+},{"./CSSProperty":4,"./ReactPerf":82,"./dangerousStyleValue":114,"_process":230,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/camelizeStyleName":142,"fbjs/lib/hyphenateStyleName":153,"fbjs/lib/memoizeStringOnly":160,"fbjs/lib/warning":164}],6:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -882,7 +882,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./PooledClass":26,"_process":167,"fbjs/lib/invariant":154,"object-assign":165}],7:[function(require,module,exports){
+},{"./PooledClass":26,"_process":230,"fbjs/lib/invariant":154,"object-assign":165}],7:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -1711,7 +1711,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],12:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],12:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -1927,7 +1927,7 @@ ReactPerf.measureMethods(DOMPropertyOperations, 'DOMPropertyOperations', {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":11,"./ReactDOMInstrumentation":49,"./ReactPerf":82,"./quoteAttributeValueForBrowser":132,"_process":167,"fbjs/lib/warning":164}],13:[function(require,module,exports){
+},{"./DOMProperty":11,"./ReactDOMInstrumentation":49,"./ReactPerf":82,"./quoteAttributeValueForBrowser":132,"_process":230,"fbjs/lib/warning":164}],13:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -2074,7 +2074,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":9,"_process":167,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/createNodesFromMarkup":145,"fbjs/lib/emptyFunction":146,"fbjs/lib/getMarkupWrap":150,"fbjs/lib/invariant":154}],14:[function(require,module,exports){
+},{"./DOMLazyTree":9,"_process":230,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/createNodesFromMarkup":145,"fbjs/lib/emptyFunction":146,"fbjs/lib/getMarkupWrap":150,"fbjs/lib/invariant":154}],14:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2595,7 +2595,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":19,"./EventPluginUtils":20,"./ReactErrorUtils":65,"./accumulateInto":110,"./forEachAccumulated":118,"_process":167,"fbjs/lib/invariant":154}],19:[function(require,module,exports){
+},{"./EventPluginRegistry":19,"./EventPluginUtils":20,"./ReactErrorUtils":65,"./accumulateInto":110,"./forEachAccumulated":118,"_process":230,"fbjs/lib/invariant":154}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -2839,7 +2839,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],20:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],20:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3069,7 +3069,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":17,"./ReactErrorUtils":65,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],21:[function(require,module,exports){
+},{"./EventConstants":17,"./ReactErrorUtils":65,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],21:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3209,7 +3209,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":17,"./EventPluginHub":18,"./EventPluginUtils":20,"./accumulateInto":110,"./forEachAccumulated":118,"_process":167,"fbjs/lib/warning":164}],22:[function(require,module,exports){
+},{"./EventConstants":17,"./EventPluginHub":18,"./EventPluginUtils":20,"./accumulateInto":110,"./forEachAccumulated":118,"_process":230,"fbjs/lib/warning":164}],22:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -3710,7 +3710,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":84,"./ReactPropTypes":85,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],26:[function(require,module,exports){
+},{"./ReactPropTypeLocations":84,"./ReactPropTypes":85,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],26:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3832,7 +3832,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],27:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],27:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3922,7 +3922,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":30,"./ReactClass":31,"./ReactComponent":32,"./ReactDOMFactories":45,"./ReactElement":62,"./ReactElementValidator":63,"./ReactPropTypes":85,"./ReactVersion":91,"./onlyChild":131,"_process":167,"fbjs/lib/warning":164,"object-assign":165}],28:[function(require,module,exports){
+},{"./ReactChildren":30,"./ReactClass":31,"./ReactComponent":32,"./ReactDOMFactories":45,"./ReactElement":62,"./ReactElementValidator":63,"./ReactPropTypes":85,"./ReactVersion":91,"./onlyChild":131,"_process":230,"fbjs/lib/warning":164,"object-assign":165}],28:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -4368,7 +4368,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":24,"./ReactReconciler":87,"./instantiateReactComponent":128,"./shouldUpdateReactComponent":136,"./traverseAllChildren":137,"_process":167,"fbjs/lib/warning":164}],30:[function(require,module,exports){
+},{"./KeyEscapeUtils":24,"./ReactReconciler":87,"./instantiateReactComponent":128,"./shouldUpdateReactComponent":136,"./traverseAllChildren":137,"_process":230,"fbjs/lib/warning":164}],30:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5278,7 +5278,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":32,"./ReactElement":62,"./ReactNoopUpdateQueue":80,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"_process":167,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/keyMirror":157,"fbjs/lib/keyOf":158,"fbjs/lib/warning":164,"object-assign":165}],32:[function(require,module,exports){
+},{"./ReactComponent":32,"./ReactElement":62,"./ReactNoopUpdateQueue":80,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"_process":230,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/keyMirror":157,"fbjs/lib/keyOf":158,"fbjs/lib/warning":164,"object-assign":165}],32:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -5402,7 +5402,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":72,"./ReactNoopUpdateQueue":80,"./canDefineProperty":112,"_process":167,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],33:[function(require,module,exports){
+},{"./ReactInstrumentation":72,"./ReactNoopUpdateQueue":80,"./canDefineProperty":112,"_process":230,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],33:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5501,7 +5501,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],35:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],35:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -6298,7 +6298,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./ReactComponentEnvironment":34,"./ReactCurrentOwner":36,"./ReactElement":62,"./ReactErrorUtils":65,"./ReactInstanceMap":71,"./ReactInstrumentation":72,"./ReactNodeTypes":79,"./ReactPerf":82,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"./ReactReconciler":87,"./ReactUpdateQueue":89,"./shouldUpdateReactComponent":136,"_process":167,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],36:[function(require,module,exports){
+},{"./ReactComponentEnvironment":34,"./ReactCurrentOwner":36,"./ReactElement":62,"./ReactErrorUtils":65,"./ReactInstanceMap":71,"./ReactInstrumentation":72,"./ReactNodeTypes":79,"./ReactPerf":82,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"./ReactReconciler":87,"./ReactUpdateQueue":89,"./shouldUpdateReactComponent":136,"_process":230,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],36:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -6437,7 +6437,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":41,"./ReactDefaultInjection":59,"./ReactMount":75,"./ReactPerf":82,"./ReactReconciler":87,"./ReactUpdates":90,"./ReactVersion":91,"./findDOMNode":116,"./getNativeComponentFromComposite":124,"./renderSubtreeIntoContainer":133,"_process":167,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/warning":164}],38:[function(require,module,exports){
+},{"./ReactDOMComponentTree":41,"./ReactDefaultInjection":59,"./ReactMount":75,"./ReactPerf":82,"./ReactReconciler":87,"./ReactUpdates":90,"./ReactVersion":91,"./findDOMNode":116,"./getNativeComponentFromComposite":124,"./renderSubtreeIntoContainer":133,"_process":230,"fbjs/lib/ExecutionEnvironment":140,"fbjs/lib/warning":164}],38:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7374,7 +7374,7 @@ _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mi
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":2,"./CSSPropertyOperations":5,"./DOMLazyTree":9,"./DOMNamespaces":10,"./DOMProperty":11,"./DOMPropertyOperations":12,"./EventConstants":17,"./EventPluginHub":18,"./EventPluginRegistry":19,"./ReactBrowserEventEmitter":28,"./ReactComponentBrowserEnvironment":33,"./ReactDOMButton":38,"./ReactDOMComponentFlags":40,"./ReactDOMComponentTree":41,"./ReactDOMInput":48,"./ReactDOMOption":50,"./ReactDOMSelect":51,"./ReactDOMTextarea":54,"./ReactMultiChild":76,"./ReactPerf":82,"./escapeTextContentForBrowser":115,"./isEventSupported":129,"./validateDOMNesting":138,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/keyOf":158,"fbjs/lib/shallowEqual":163,"fbjs/lib/warning":164,"object-assign":165}],40:[function(require,module,exports){
+},{"./AutoFocusUtils":2,"./CSSPropertyOperations":5,"./DOMLazyTree":9,"./DOMNamespaces":10,"./DOMProperty":11,"./DOMPropertyOperations":12,"./EventConstants":17,"./EventPluginHub":18,"./EventPluginRegistry":19,"./ReactBrowserEventEmitter":28,"./ReactComponentBrowserEnvironment":33,"./ReactDOMButton":38,"./ReactDOMComponentFlags":40,"./ReactDOMComponentTree":41,"./ReactDOMInput":48,"./ReactDOMOption":50,"./ReactDOMSelect":51,"./ReactDOMTextarea":54,"./ReactMultiChild":76,"./ReactPerf":82,"./escapeTextContentForBrowser":115,"./isEventSupported":129,"./validateDOMNesting":138,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/keyOf":158,"fbjs/lib/shallowEqual":163,"fbjs/lib/warning":164,"object-assign":165}],40:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -7582,7 +7582,7 @@ var ReactDOMComponentTree = {
 
 module.exports = ReactDOMComponentTree;
 }).call(this,require('_process'))
-},{"./DOMProperty":11,"./ReactDOMComponentFlags":40,"_process":167,"fbjs/lib/invariant":154}],42:[function(require,module,exports){
+},{"./DOMProperty":11,"./ReactDOMComponentFlags":40,"_process":230,"fbjs/lib/invariant":154}],42:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7618,7 +7618,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 
 module.exports = ReactDOMContainerInfo;
 }).call(this,require('_process'))
-},{"./validateDOMNesting":138,"_process":167}],43:[function(require,module,exports){
+},{"./validateDOMNesting":138,"_process":230}],43:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7682,7 +7682,7 @@ ReactDOMDebugTool.addDevtool(ReactDOMUnknownPropertyDevtool);
 
 module.exports = ReactDOMDebugTool;
 }).call(this,require('_process'))
-},{"./ReactDOMUnknownPropertyDevtool":56,"_process":167,"fbjs/lib/warning":164}],44:[function(require,module,exports){
+},{"./ReactDOMUnknownPropertyDevtool":56,"_process":230,"fbjs/lib/warning":164}],44:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -7922,7 +7922,7 @@ var ReactDOMFactories = mapObject({
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":62,"./ReactElementValidator":63,"_process":167,"fbjs/lib/mapObject":159}],46:[function(require,module,exports){
+},{"./ReactElement":62,"./ReactElementValidator":63,"_process":230,"fbjs/lib/mapObject":159}],46:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8188,7 +8188,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":12,"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],49:[function(require,module,exports){
+},{"./DOMPropertyOperations":12,"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],49:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8317,7 +8317,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./ReactChildren":30,"./ReactDOMComponentTree":41,"./ReactDOMSelect":51,"_process":167,"fbjs/lib/warning":164,"object-assign":165}],51:[function(require,module,exports){
+},{"./ReactChildren":30,"./ReactDOMComponentTree":41,"./ReactDOMSelect":51,"_process":230,"fbjs/lib/warning":164,"object-assign":165}],51:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8533,7 +8533,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":167,"fbjs/lib/warning":164,"object-assign":165}],52:[function(require,module,exports){
+},{"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":230,"fbjs/lib/warning":164,"object-assign":165}],52:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8918,7 +8918,7 @@ ReactPerf.measureMethods(ReactDOMTextComponent.prototype, 'ReactDOMTextComponent
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":8,"./DOMLazyTree":9,"./ReactDOMComponentTree":41,"./ReactPerf":82,"./escapeTextContentForBrowser":115,"./validateDOMNesting":138,"_process":167,"fbjs/lib/invariant":154,"object-assign":165}],54:[function(require,module,exports){
+},{"./DOMChildrenOperations":8,"./DOMLazyTree":9,"./ReactDOMComponentTree":41,"./ReactPerf":82,"./escapeTextContentForBrowser":115,"./validateDOMNesting":138,"_process":230,"fbjs/lib/invariant":154,"object-assign":165}],54:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9063,7 +9063,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":12,"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],55:[function(require,module,exports){
+},{"./DOMPropertyOperations":12,"./DisabledInputUtils":15,"./LinkedValueUtils":25,"./ReactDOMComponentTree":41,"./ReactUpdates":90,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],55:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -9200,7 +9200,7 @@ module.exports = {
   traverseEnterLeave: traverseEnterLeave
 };
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],56:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],56:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9267,7 +9267,7 @@ var ReactDOMUnknownPropertyDevtool = {
 
 module.exports = ReactDOMUnknownPropertyDevtool;
 }).call(this,require('_process'))
-},{"./DOMProperty":11,"./EventPluginRegistry":19,"_process":167,"fbjs/lib/warning":164}],57:[function(require,module,exports){
+},{"./DOMProperty":11,"./EventPluginRegistry":19,"_process":230,"fbjs/lib/warning":164}],57:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -9342,7 +9342,7 @@ ReactDebugTool.addDevtool(ReactInvalidSetStateWarningDevTool);
 
 module.exports = ReactDebugTool;
 }).call(this,require('_process'))
-},{"./ReactInvalidSetStateWarningDevTool":73,"_process":167,"fbjs/lib/warning":164}],58:[function(require,module,exports){
+},{"./ReactInvalidSetStateWarningDevTool":73,"_process":230,"fbjs/lib/warning":164}],58:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9507,7 +9507,7 @@ module.exports = {
   inject: inject
 };
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":3,"./ChangeEventPlugin":7,"./DefaultEventPluginOrder":14,"./EnterLeaveEventPlugin":16,"./HTMLDOMPropertyConfig":23,"./ReactComponentBrowserEnvironment":33,"./ReactDOMComponent":39,"./ReactDOMComponentTree":41,"./ReactDOMEmptyComponent":44,"./ReactDOMTextComponent":53,"./ReactDOMTreeTraversal":55,"./ReactDefaultBatchingStrategy":58,"./ReactDefaultPerf":60,"./ReactEventListener":67,"./ReactInjection":69,"./ReactReconcileTransaction":86,"./SVGDOMPropertyConfig":92,"./SelectEventPlugin":93,"./SimpleEventPlugin":94,"_process":167,"fbjs/lib/ExecutionEnvironment":140}],60:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":3,"./ChangeEventPlugin":7,"./DefaultEventPluginOrder":14,"./EnterLeaveEventPlugin":16,"./HTMLDOMPropertyConfig":23,"./ReactComponentBrowserEnvironment":33,"./ReactDOMComponent":39,"./ReactDOMComponentTree":41,"./ReactDOMEmptyComponent":44,"./ReactDOMTextComponent":53,"./ReactDOMTreeTraversal":55,"./ReactDefaultBatchingStrategy":58,"./ReactDefaultPerf":60,"./ReactEventListener":67,"./ReactInjection":69,"./ReactReconcileTransaction":86,"./SVGDOMPropertyConfig":92,"./SelectEventPlugin":93,"./SimpleEventPlugin":94,"_process":230,"fbjs/lib/ExecutionEnvironment":140}],60:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9826,7 +9826,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 }).call(this,require('_process'))
-},{"./DOMProperty":11,"./ReactDOMComponentTree":41,"./ReactDefaultPerfAnalysis":61,"./ReactMount":75,"./ReactPerf":82,"_process":167,"fbjs/lib/performanceNow":162,"fbjs/lib/warning":164}],61:[function(require,module,exports){
+},{"./DOMProperty":11,"./ReactDOMComponentTree":41,"./ReactDefaultPerfAnalysis":61,"./ReactMount":75,"./ReactPerf":82,"_process":230,"fbjs/lib/performanceNow":162,"fbjs/lib/warning":164}],61:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10327,7 +10327,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":36,"./canDefineProperty":112,"_process":167,"fbjs/lib/warning":164,"object-assign":165}],63:[function(require,module,exports){
+},{"./ReactCurrentOwner":36,"./canDefineProperty":112,"_process":230,"fbjs/lib/warning":164,"object-assign":165}],63:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -10611,7 +10611,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":36,"./ReactElement":62,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"./canDefineProperty":112,"./getIteratorFn":123,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],64:[function(require,module,exports){
+},{"./ReactCurrentOwner":36,"./ReactElement":62,"./ReactPropTypeLocationNames":83,"./ReactPropTypeLocations":84,"./canDefineProperty":112,"./getIteratorFn":123,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],64:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -10721,7 +10721,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":167}],66:[function(require,module,exports){
+},{"_process":230}],66:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -11204,7 +11204,7 @@ var ReactInvalidSetStateWarningDevTool = {
 
 module.exports = ReactInvalidSetStateWarningDevTool;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/warning":164}],74:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/warning":164}],74:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -11736,7 +11736,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":9,"./DOMProperty":11,"./ReactBrowserEventEmitter":28,"./ReactCurrentOwner":36,"./ReactDOMComponentTree":41,"./ReactDOMContainerInfo":42,"./ReactDOMFeatureFlags":46,"./ReactElement":62,"./ReactFeatureFlags":68,"./ReactInstrumentation":72,"./ReactMarkupChecksum":74,"./ReactPerf":82,"./ReactReconciler":87,"./ReactUpdateQueue":89,"./ReactUpdates":90,"./instantiateReactComponent":128,"./setInnerHTML":134,"./shouldUpdateReactComponent":136,"_process":167,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],76:[function(require,module,exports){
+},{"./DOMLazyTree":9,"./DOMProperty":11,"./ReactBrowserEventEmitter":28,"./ReactCurrentOwner":36,"./ReactDOMComponentTree":41,"./ReactDOMContainerInfo":42,"./ReactDOMFeatureFlags":46,"./ReactElement":62,"./ReactFeatureFlags":68,"./ReactInstrumentation":72,"./ReactMarkupChecksum":74,"./ReactPerf":82,"./ReactReconciler":87,"./ReactUpdateQueue":89,"./ReactUpdates":90,"./instantiateReactComponent":128,"./setInnerHTML":134,"./shouldUpdateReactComponent":136,"_process":230,"fbjs/lib/emptyObject":147,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],76:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12141,7 +12141,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":29,"./ReactComponentEnvironment":34,"./ReactCurrentOwner":36,"./ReactMultiChildUpdateTypes":77,"./ReactReconciler":87,"./flattenChildren":117,"_process":167,"fbjs/lib/invariant":154}],77:[function(require,module,exports){
+},{"./ReactChildReconciler":29,"./ReactComponentEnvironment":34,"./ReactCurrentOwner":36,"./ReactMultiChildUpdateTypes":77,"./ReactReconciler":87,"./flattenChildren":117,"_process":230,"fbjs/lib/invariant":154}],77:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12272,7 +12272,7 @@ var ReactNativeComponent = {
 
 module.exports = ReactNativeComponent;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154,"object-assign":165}],79:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154,"object-assign":165}],79:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12312,7 +12312,7 @@ var ReactNodeTypes = {
 
 module.exports = ReactNodeTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":62,"_process":167,"fbjs/lib/invariant":154}],80:[function(require,module,exports){
+},{"./ReactElement":62,"_process":230,"fbjs/lib/invariant":154}],80:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -12410,7 +12410,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/warning":164}],81:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/warning":164}],81:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12505,7 +12505,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],82:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],82:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12604,7 +12604,7 @@ function _noMeasure(objName, fnName, func) {
 
 module.exports = ReactPerf;
 }).call(this,require('_process'))
-},{"_process":167}],83:[function(require,module,exports){
+},{"_process":230}],83:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12631,7 +12631,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":167}],84:[function(require,module,exports){
+},{"_process":230}],84:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13331,7 +13331,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":72,"./ReactRef":88,"_process":167}],88:[function(require,module,exports){
+},{"./ReactInstrumentation":72,"./ReactRef":88,"_process":230}],88:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13628,7 +13628,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":36,"./ReactInstanceMap":71,"./ReactUpdates":90,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],90:[function(require,module,exports){
+},{"./ReactCurrentOwner":36,"./ReactInstanceMap":71,"./ReactUpdates":90,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],90:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -13872,7 +13872,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":6,"./PooledClass":26,"./ReactFeatureFlags":68,"./ReactPerf":82,"./ReactReconciler":87,"./Transaction":108,"_process":167,"fbjs/lib/invariant":154,"object-assign":165}],91:[function(require,module,exports){
+},{"./CallbackQueue":6,"./PooledClass":26,"./ReactFeatureFlags":68,"./ReactPerf":82,"./ReactReconciler":87,"./Transaction":108,"_process":230,"fbjs/lib/invariant":154,"object-assign":165}],91:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15015,7 +15015,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":17,"./EventPropagators":21,"./ReactDOMComponentTree":41,"./SyntheticAnimationEvent":95,"./SyntheticClipboardEvent":96,"./SyntheticDragEvent":98,"./SyntheticEvent":99,"./SyntheticFocusEvent":100,"./SyntheticKeyboardEvent":102,"./SyntheticMouseEvent":103,"./SyntheticTouchEvent":104,"./SyntheticTransitionEvent":105,"./SyntheticUIEvent":106,"./SyntheticWheelEvent":107,"./getEventCharCode":119,"_process":167,"fbjs/lib/EventListener":139,"fbjs/lib/emptyFunction":146,"fbjs/lib/invariant":154,"fbjs/lib/keyOf":158}],95:[function(require,module,exports){
+},{"./EventConstants":17,"./EventPropagators":21,"./ReactDOMComponentTree":41,"./SyntheticAnimationEvent":95,"./SyntheticClipboardEvent":96,"./SyntheticDragEvent":98,"./SyntheticEvent":99,"./SyntheticFocusEvent":100,"./SyntheticKeyboardEvent":102,"./SyntheticMouseEvent":103,"./SyntheticTouchEvent":104,"./SyntheticTransitionEvent":105,"./SyntheticUIEvent":106,"./SyntheticWheelEvent":107,"./getEventCharCode":119,"_process":230,"fbjs/lib/EventListener":139,"fbjs/lib/emptyFunction":146,"fbjs/lib/invariant":154,"fbjs/lib/keyOf":158}],95:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15432,7 +15432,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
   }
 }
 }).call(this,require('_process'))
-},{"./PooledClass":26,"_process":167,"fbjs/lib/emptyFunction":146,"fbjs/lib/warning":164,"object-assign":165}],100:[function(require,module,exports){
+},{"./PooledClass":26,"_process":230,"fbjs/lib/emptyFunction":146,"fbjs/lib/warning":164,"object-assign":165}],100:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16100,7 +16100,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],109:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],109:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16190,7 +16190,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/invariant":154}],111:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/invariant":154}],111:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16261,7 +16261,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":167}],113:[function(require,module,exports){
+},{"_process":230}],113:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16374,7 +16374,7 @@ function dangerousStyleValue(name, value, component) {
 
 module.exports = dangerousStyleValue;
 }).call(this,require('_process'))
-},{"./CSSProperty":4,"_process":167,"fbjs/lib/warning":164}],115:[function(require,module,exports){
+},{"./CSSProperty":4,"_process":230,"fbjs/lib/warning":164}],115:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16472,7 +16472,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":36,"./ReactDOMComponentTree":41,"./ReactInstanceMap":71,"./getNativeComponentFromComposite":124,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],117:[function(require,module,exports){
+},{"./ReactCurrentOwner":36,"./ReactDOMComponentTree":41,"./ReactInstanceMap":71,"./getNativeComponentFromComposite":124,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],117:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -16524,7 +16524,7 @@ function flattenChildren(children) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":24,"./traverseAllChildren":137,"_process":167,"fbjs/lib/warning":164}],118:[function(require,module,exports){
+},{"./KeyEscapeUtils":24,"./traverseAllChildren":137,"_process":230,"fbjs/lib/warning":164}],118:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17186,7 +17186,7 @@ function instantiateReactComponent(node) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":35,"./ReactEmptyComponent":64,"./ReactNativeComponent":78,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],129:[function(require,module,exports){
+},{"./ReactCompositeComponent":35,"./ReactEmptyComponent":64,"./ReactNativeComponent":78,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164,"object-assign":165}],129:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17325,7 +17325,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":62,"_process":167,"fbjs/lib/invariant":154}],132:[function(require,module,exports){
+},{"./ReactElement":62,"_process":230,"fbjs/lib/invariant":154}],132:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17697,7 +17697,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":24,"./ReactCurrentOwner":36,"./ReactElement":62,"./getIteratorFn":123,"_process":167,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],138:[function(require,module,exports){
+},{"./KeyEscapeUtils":24,"./ReactCurrentOwner":36,"./ReactElement":62,"./getIteratorFn":123,"_process":230,"fbjs/lib/invariant":154,"fbjs/lib/warning":164}],138:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -18069,7 +18069,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"_process":167,"fbjs/lib/emptyFunction":146,"fbjs/lib/warning":164,"object-assign":165}],139:[function(require,module,exports){
+},{"_process":230,"fbjs/lib/emptyFunction":146,"fbjs/lib/warning":164,"object-assign":165}],139:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18155,7 +18155,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":146,"_process":167}],140:[function(require,module,exports){
+},{"./emptyFunction":146,"_process":230}],140:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18436,7 +18436,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 }).call(this,require('_process'))
-},{"./invariant":154,"_process":167}],145:[function(require,module,exports){
+},{"./invariant":154,"_process":230}],145:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18522,7 +18522,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":140,"./createArrayFromMixed":144,"./getMarkupWrap":150,"./invariant":154,"_process":167}],146:[function(require,module,exports){
+},{"./ExecutionEnvironment":140,"./createArrayFromMixed":144,"./getMarkupWrap":150,"./invariant":154,"_process":230}],146:[function(require,module,exports){
 "use strict";
 
 /**
@@ -18582,7 +18582,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":167}],148:[function(require,module,exports){
+},{"_process":230}],148:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18741,7 +18741,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":140,"./invariant":154,"_process":167}],151:[function(require,module,exports){
+},{"./ExecutionEnvironment":140,"./invariant":154,"_process":230}],151:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18904,7 +18904,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":167}],155:[function(require,module,exports){
+},{"_process":230}],155:[function(require,module,exports){
 'use strict';
 
 /**
@@ -19002,7 +19002,7 @@ var keyMirror = function (obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":154,"_process":167}],158:[function(require,module,exports){
+},{"./invariant":154,"_process":230}],158:[function(require,module,exports){
 "use strict";
 
 /**
@@ -19303,7 +19303,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":146,"_process":167}],165:[function(require,module,exports){
+},{"./emptyFunction":146,"_process":230}],165:[function(require,module,exports){
 'use strict';
 /* eslint-disable no-unused-vars */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -19394,6 +19394,2235 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 module.exports = require('./lib/React');
 
 },{"./lib/React":27}],167:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _toDate = require('./lib/toDate');
+
+var _toDate2 = _interopRequireDefault(_toDate);
+
+var _toFloat = require('./lib/toFloat');
+
+var _toFloat2 = _interopRequireDefault(_toFloat);
+
+var _toInt = require('./lib/toInt');
+
+var _toInt2 = _interopRequireDefault(_toInt);
+
+var _toBoolean = require('./lib/toBoolean');
+
+var _toBoolean2 = _interopRequireDefault(_toBoolean);
+
+var _equals = require('./lib/equals');
+
+var _equals2 = _interopRequireDefault(_equals);
+
+var _contains = require('./lib/contains');
+
+var _contains2 = _interopRequireDefault(_contains);
+
+var _matches = require('./lib/matches');
+
+var _matches2 = _interopRequireDefault(_matches);
+
+var _isEmail = require('./lib/isEmail');
+
+var _isEmail2 = _interopRequireDefault(_isEmail);
+
+var _isURL = require('./lib/isURL');
+
+var _isURL2 = _interopRequireDefault(_isURL);
+
+var _isMACAddress = require('./lib/isMACAddress');
+
+var _isMACAddress2 = _interopRequireDefault(_isMACAddress);
+
+var _isIP = require('./lib/isIP');
+
+var _isIP2 = _interopRequireDefault(_isIP);
+
+var _isFQDN = require('./lib/isFQDN');
+
+var _isFQDN2 = _interopRequireDefault(_isFQDN);
+
+var _isBoolean = require('./lib/isBoolean');
+
+var _isBoolean2 = _interopRequireDefault(_isBoolean);
+
+var _isAlpha = require('./lib/isAlpha');
+
+var _isAlpha2 = _interopRequireDefault(_isAlpha);
+
+var _isAlphanumeric = require('./lib/isAlphanumeric');
+
+var _isAlphanumeric2 = _interopRequireDefault(_isAlphanumeric);
+
+var _isNumeric = require('./lib/isNumeric');
+
+var _isNumeric2 = _interopRequireDefault(_isNumeric);
+
+var _isLowercase = require('./lib/isLowercase');
+
+var _isLowercase2 = _interopRequireDefault(_isLowercase);
+
+var _isUppercase = require('./lib/isUppercase');
+
+var _isUppercase2 = _interopRequireDefault(_isUppercase);
+
+var _isAscii = require('./lib/isAscii');
+
+var _isAscii2 = _interopRequireDefault(_isAscii);
+
+var _isFullWidth = require('./lib/isFullWidth');
+
+var _isFullWidth2 = _interopRequireDefault(_isFullWidth);
+
+var _isHalfWidth = require('./lib/isHalfWidth');
+
+var _isHalfWidth2 = _interopRequireDefault(_isHalfWidth);
+
+var _isVariableWidth = require('./lib/isVariableWidth');
+
+var _isVariableWidth2 = _interopRequireDefault(_isVariableWidth);
+
+var _isMultibyte = require('./lib/isMultibyte');
+
+var _isMultibyte2 = _interopRequireDefault(_isMultibyte);
+
+var _isSurrogatePair = require('./lib/isSurrogatePair');
+
+var _isSurrogatePair2 = _interopRequireDefault(_isSurrogatePair);
+
+var _isInt = require('./lib/isInt');
+
+var _isInt2 = _interopRequireDefault(_isInt);
+
+var _isFloat = require('./lib/isFloat');
+
+var _isFloat2 = _interopRequireDefault(_isFloat);
+
+var _isDecimal = require('./lib/isDecimal');
+
+var _isDecimal2 = _interopRequireDefault(_isDecimal);
+
+var _isHexadecimal = require('./lib/isHexadecimal');
+
+var _isHexadecimal2 = _interopRequireDefault(_isHexadecimal);
+
+var _isDivisibleBy = require('./lib/isDivisibleBy');
+
+var _isDivisibleBy2 = _interopRequireDefault(_isDivisibleBy);
+
+var _isHexColor = require('./lib/isHexColor');
+
+var _isHexColor2 = _interopRequireDefault(_isHexColor);
+
+var _isJSON = require('./lib/isJSON');
+
+var _isJSON2 = _interopRequireDefault(_isJSON);
+
+var _isNull = require('./lib/isNull');
+
+var _isNull2 = _interopRequireDefault(_isNull);
+
+var _isLength = require('./lib/isLength');
+
+var _isLength2 = _interopRequireDefault(_isLength);
+
+var _isByteLength = require('./lib/isByteLength');
+
+var _isByteLength2 = _interopRequireDefault(_isByteLength);
+
+var _isUUID = require('./lib/isUUID');
+
+var _isUUID2 = _interopRequireDefault(_isUUID);
+
+var _isMongoId = require('./lib/isMongoId');
+
+var _isMongoId2 = _interopRequireDefault(_isMongoId);
+
+var _isDate = require('./lib/isDate');
+
+var _isDate2 = _interopRequireDefault(_isDate);
+
+var _isAfter = require('./lib/isAfter');
+
+var _isAfter2 = _interopRequireDefault(_isAfter);
+
+var _isBefore = require('./lib/isBefore');
+
+var _isBefore2 = _interopRequireDefault(_isBefore);
+
+var _isIn = require('./lib/isIn');
+
+var _isIn2 = _interopRequireDefault(_isIn);
+
+var _isCreditCard = require('./lib/isCreditCard');
+
+var _isCreditCard2 = _interopRequireDefault(_isCreditCard);
+
+var _isISIN = require('./lib/isISIN');
+
+var _isISIN2 = _interopRequireDefault(_isISIN);
+
+var _isISBN = require('./lib/isISBN');
+
+var _isISBN2 = _interopRequireDefault(_isISBN);
+
+var _isMobilePhone = require('./lib/isMobilePhone');
+
+var _isMobilePhone2 = _interopRequireDefault(_isMobilePhone);
+
+var _isCurrency = require('./lib/isCurrency');
+
+var _isCurrency2 = _interopRequireDefault(_isCurrency);
+
+var _isISO = require('./lib/isISO8601');
+
+var _isISO2 = _interopRequireDefault(_isISO);
+
+var _isBase = require('./lib/isBase64');
+
+var _isBase2 = _interopRequireDefault(_isBase);
+
+var _isDataURI = require('./lib/isDataURI');
+
+var _isDataURI2 = _interopRequireDefault(_isDataURI);
+
+var _ltrim = require('./lib/ltrim');
+
+var _ltrim2 = _interopRequireDefault(_ltrim);
+
+var _rtrim = require('./lib/rtrim');
+
+var _rtrim2 = _interopRequireDefault(_rtrim);
+
+var _trim = require('./lib/trim');
+
+var _trim2 = _interopRequireDefault(_trim);
+
+var _escape = require('./lib/escape');
+
+var _escape2 = _interopRequireDefault(_escape);
+
+var _unescape = require('./lib/unescape');
+
+var _unescape2 = _interopRequireDefault(_unescape);
+
+var _stripLow = require('./lib/stripLow');
+
+var _stripLow2 = _interopRequireDefault(_stripLow);
+
+var _whitelist = require('./lib/whitelist');
+
+var _whitelist2 = _interopRequireDefault(_whitelist);
+
+var _blacklist = require('./lib/blacklist');
+
+var _blacklist2 = _interopRequireDefault(_blacklist);
+
+var _isWhitelisted = require('./lib/isWhitelisted');
+
+var _isWhitelisted2 = _interopRequireDefault(_isWhitelisted);
+
+var _normalizeEmail = require('./lib/normalizeEmail');
+
+var _normalizeEmail2 = _interopRequireDefault(_normalizeEmail);
+
+var _toString = require('./lib/util/toString');
+
+var _toString2 = _interopRequireDefault(_toString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var version = '5.2.0';
+
+var validator = {
+  version: version,
+  toDate: _toDate2.default,
+  toFloat: _toFloat2.default, toInt: _toInt2.default,
+  toBoolean: _toBoolean2.default,
+  equals: _equals2.default, contains: _contains2.default, matches: _matches2.default,
+  isEmail: _isEmail2.default, isURL: _isURL2.default, isMACAddress: _isMACAddress2.default, isIP: _isIP2.default, isFQDN: _isFQDN2.default,
+  isBoolean: _isBoolean2.default,
+  isAlpha: _isAlpha2.default, isAlphanumeric: _isAlphanumeric2.default, isNumeric: _isNumeric2.default, isLowercase: _isLowercase2.default, isUppercase: _isUppercase2.default,
+  isAscii: _isAscii2.default, isFullWidth: _isFullWidth2.default, isHalfWidth: _isHalfWidth2.default, isVariableWidth: _isVariableWidth2.default,
+  isMultibyte: _isMultibyte2.default, isSurrogatePair: _isSurrogatePair2.default,
+  isInt: _isInt2.default, isFloat: _isFloat2.default, isDecimal: _isDecimal2.default, isHexadecimal: _isHexadecimal2.default, isDivisibleBy: _isDivisibleBy2.default,
+  isHexColor: _isHexColor2.default,
+  isJSON: _isJSON2.default,
+  isNull: _isNull2.default,
+  isLength: _isLength2.default, isByteLength: _isByteLength2.default,
+  isUUID: _isUUID2.default, isMongoId: _isMongoId2.default,
+  isDate: _isDate2.default, isAfter: _isAfter2.default, isBefore: _isBefore2.default,
+  isIn: _isIn2.default,
+  isCreditCard: _isCreditCard2.default,
+  isISIN: _isISIN2.default, isISBN: _isISBN2.default,
+  isMobilePhone: _isMobilePhone2.default,
+  isCurrency: _isCurrency2.default,
+  isISO8601: _isISO2.default,
+  isBase64: _isBase2.default, isDataURI: _isDataURI2.default,
+  ltrim: _ltrim2.default, rtrim: _rtrim2.default, trim: _trim2.default,
+  escape: _escape2.default, unescape: _unescape2.default, stripLow: _stripLow2.default,
+  whitelist: _whitelist2.default, blacklist: _blacklist2.default,
+  isWhitelisted: _isWhitelisted2.default,
+  normalizeEmail: _normalizeEmail2.default,
+  toString: _toString2.default
+};
+
+exports.default = validator;
+module.exports = exports['default'];
+},{"./lib/blacklist":169,"./lib/contains":170,"./lib/equals":171,"./lib/escape":172,"./lib/isAfter":173,"./lib/isAlpha":174,"./lib/isAlphanumeric":175,"./lib/isAscii":176,"./lib/isBase64":177,"./lib/isBefore":178,"./lib/isBoolean":179,"./lib/isByteLength":180,"./lib/isCreditCard":181,"./lib/isCurrency":182,"./lib/isDataURI":183,"./lib/isDate":184,"./lib/isDecimal":185,"./lib/isDivisibleBy":186,"./lib/isEmail":187,"./lib/isFQDN":188,"./lib/isFloat":189,"./lib/isFullWidth":190,"./lib/isHalfWidth":191,"./lib/isHexColor":192,"./lib/isHexadecimal":193,"./lib/isIP":194,"./lib/isISBN":195,"./lib/isISIN":196,"./lib/isISO8601":197,"./lib/isIn":198,"./lib/isInt":199,"./lib/isJSON":200,"./lib/isLength":201,"./lib/isLowercase":202,"./lib/isMACAddress":203,"./lib/isMobilePhone":204,"./lib/isMongoId":205,"./lib/isMultibyte":206,"./lib/isNull":207,"./lib/isNumeric":208,"./lib/isSurrogatePair":209,"./lib/isURL":210,"./lib/isUUID":211,"./lib/isUppercase":212,"./lib/isVariableWidth":213,"./lib/isWhitelisted":214,"./lib/ltrim":215,"./lib/matches":216,"./lib/normalizeEmail":217,"./lib/rtrim":218,"./lib/stripLow":219,"./lib/toBoolean":220,"./lib/toDate":221,"./lib/toFloat":222,"./lib/toInt":223,"./lib/trim":224,"./lib/unescape":225,"./lib/util/toString":228,"./lib/whitelist":229}],168:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var alpha = exports.alpha = {
+  'en-US': /^[A-Z]+$/i,
+  'cs-CZ': /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]+$/i,
+  'de-DE': /^[A-ZÄÖÜß]+$/i,
+  'es-ES': /^[A-ZÁÉÍÑÓÚÜ]+$/i,
+  'fr-FR': /^[A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ]+$/i,
+  'nl-NL': /^[A-ZÉËÏÓÖÜ]+$/i,
+  'pl-PL': /^[A-ZĄĆĘŚŁŃÓŻŹ]+$/i,
+  'pt-PT': /^[A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ]+$/i,
+  'ru-RU': /^[А-ЯЁа-яё]+$/i,
+  'tr-TR': /^[A-ZÇĞİıÖŞÜ]+$/i,
+  ar: /^[ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ]+$/
+};
+
+var alphanumeric = exports.alphanumeric = {
+  'en-US': /^[0-9A-Z]+$/i,
+  'cs-CZ': /^[0-9A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]+$/i,
+  'de-DE': /^[0-9A-ZÄÖÜß]+$/i,
+  'es-ES': /^[0-9A-ZÁÉÍÑÓÚÜ]+$/i,
+  'fr-FR': /^[0-9A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ]+$/i,
+  'nl-NL': /^[0-9A-ZÉËÏÓÖÜ]+$/i,
+  'pl-PL': /^[0-9A-ZĄĆĘŚŁŃÓŻŹ]+$/i,
+  'pt-PT': /^[0-9A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ]+$/i,
+  'ru-RU': /^[0-9А-ЯЁа-яё]+$/i,
+  'tr-TR': /^[0-9A-ZÇĞİıÖŞÜ]+$/i,
+  ar: /^[٠١٢٣٤٥٦٧٨٩0-9ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ]+$/
+};
+
+var englishLocales = exports.englishLocales = ['AU', 'GB', 'HK', 'IN', 'NZ', 'ZA', 'ZM'];
+
+for (var locale, i = 0; i < englishLocales.length; i++) {
+  locale = 'en-' + englishLocales[i];
+  alpha[locale] = alpha['en-US'];
+  alphanumeric[locale] = alphanumeric['en-US'];
+}
+
+// Source: http://www.localeplanet.com/java/
+var arabicLocales = exports.arabicLocales = ['AE', 'BH', 'DZ', 'EG', 'IQ', 'JO', 'KW', 'LB', 'LY', 'MA', 'QM', 'QA', 'SA', 'SD', 'SY', 'TN', 'YE'];
+
+for (var _locale, _i = 0; _i < arabicLocales.length; _i++) {
+  _locale = 'ar-' + arabicLocales[_i];
+  alpha[_locale] = alpha.ar;
+  alphanumeric[_locale] = alphanumeric.ar;
+}
+},{}],169:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = blacklist;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function blacklist(str, chars) {
+  (0, _assertString2.default)(str);
+  return str.replace(new RegExp('[' + chars + ']+', 'g'), '');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],170:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = contains;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _toString = require('./util/toString');
+
+var _toString2 = _interopRequireDefault(_toString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function contains(str, elem) {
+  (0, _assertString2.default)(str);
+  return str.indexOf((0, _toString2.default)(elem)) >= 0;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226,"./util/toString":228}],171:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = equals;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function equals(str, comparison) {
+  (0, _assertString2.default)(str);
+  return str === comparison;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],172:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+      value: true
+});
+exports.default = escape;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function escape(str) {
+      (0, _assertString2.default)(str);
+      return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#x27;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\//g, '&#x2F;').replace(/\`/g, '&#96;');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],173:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isAfter;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _toDate = require('./toDate');
+
+var _toDate2 = _interopRequireDefault(_toDate);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isAfter(str) {
+  var date = arguments.length <= 1 || arguments[1] === undefined ? String(new Date()) : arguments[1];
+
+  (0, _assertString2.default)(str);
+  var comparison = (0, _toDate2.default)(date);
+  var original = (0, _toDate2.default)(str);
+  return !!(original && comparison && original > comparison);
+}
+module.exports = exports['default'];
+},{"./toDate":221,"./util/assertString":226}],174:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isAlpha;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _alpha = require('./alpha');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isAlpha(str) {
+  var locale = arguments.length <= 1 || arguments[1] === undefined ? 'en-US' : arguments[1];
+
+  (0, _assertString2.default)(str);
+  if (locale in _alpha.alpha) {
+    return _alpha.alpha[locale].test(str);
+  }
+  throw new Error('Invalid locale \'' + locale + '\'');
+}
+module.exports = exports['default'];
+},{"./alpha":168,"./util/assertString":226}],175:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isAlphanumeric;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _alpha = require('./alpha');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isAlphanumeric(str) {
+  var locale = arguments.length <= 1 || arguments[1] === undefined ? 'en-US' : arguments[1];
+
+  (0, _assertString2.default)(str);
+  if (locale in _alpha.alphanumeric) {
+    return _alpha.alphanumeric[locale].test(str);
+  }
+  throw new Error('Invalid locale \'' + locale + '\'');
+}
+module.exports = exports['default'];
+},{"./alpha":168,"./util/assertString":226}],176:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isAscii;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ascii = /^[\x00-\x7F]+$/;
+
+function isAscii(str) {
+  (0, _assertString2.default)(str);
+  return ascii.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],177:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isBase64;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var notBase64 = /[^A-Z0-9+\/=]/i;
+
+function isBase64(str) {
+  (0, _assertString2.default)(str);
+  var len = str.length;
+  if (!len || len % 4 !== 0 || notBase64.test(str)) {
+    return false;
+  }
+  var firstPaddingChar = str.indexOf('=');
+  return firstPaddingChar === -1 || firstPaddingChar === len - 1 || firstPaddingChar === len - 2 && str[len - 1] === '=';
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],178:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isBefore;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _toDate = require('./toDate');
+
+var _toDate2 = _interopRequireDefault(_toDate);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isBefore(str) {
+  var date = arguments.length <= 1 || arguments[1] === undefined ? String(new Date()) : arguments[1];
+
+  (0, _assertString2.default)(str);
+  var comparison = (0, _toDate2.default)(date);
+  var original = (0, _toDate2.default)(str);
+  return !!(original && comparison && original < comparison);
+}
+module.exports = exports['default'];
+},{"./toDate":221,"./util/assertString":226}],179:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isBoolean;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isBoolean(str) {
+  (0, _assertString2.default)(str);
+  return ['true', 'false', '1', '0'].indexOf(str) >= 0;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],180:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+exports.default = isByteLength;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable prefer-rest-params */
+function isByteLength(str, options) {
+  (0, _assertString2.default)(str);
+  var min = void 0;
+  var max = void 0;
+  if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) === 'object') {
+    min = options.min || 0;
+    max = options.max;
+  } else {
+    // backwards compatibility: isByteLength(str, min [, max])
+    min = arguments[1];
+    max = arguments[2];
+  }
+  var len = encodeURI(str).split(/%..|./).length - 1;
+  return len >= min && (typeof max === 'undefined' || len <= max);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],181:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isCreditCard;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable max-len */
+var creditCard = /^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$/;
+/* eslint-enable max-len */
+
+function isCreditCard(str) {
+  (0, _assertString2.default)(str);
+  var sanitized = str.replace(/[^0-9]+/g, '');
+  if (!creditCard.test(sanitized)) {
+    return false;
+  }
+  var sum = 0;
+  var digit = void 0;
+  var tmpNum = void 0;
+  var shouldDouble = void 0;
+  for (var i = sanitized.length - 1; i >= 0; i--) {
+    digit = sanitized.substring(i, i + 1);
+    tmpNum = parseInt(digit, 10);
+    if (shouldDouble) {
+      tmpNum *= 2;
+      if (tmpNum >= 10) {
+        sum += tmpNum % 10 + 1;
+      } else {
+        sum += tmpNum;
+      }
+    } else {
+      sum += tmpNum;
+    }
+    shouldDouble = !shouldDouble;
+  }
+  return !!(sum % 10 === 0 ? sanitized : false);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],182:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isCurrency;
+
+var _merge = require('./util/merge');
+
+var _merge2 = _interopRequireDefault(_merge);
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function currencyRegex(options) {
+  var symbol = '(\\' + options.symbol.replace(/\./g, '\\.') + ')' + (options.require_symbol ? '' : '?'),
+      negative = '-?',
+      whole_dollar_amount_without_sep = '[1-9]\\d*',
+      whole_dollar_amount_with_sep = '[1-9]\\d{0,2}(\\' + options.thousands_separator + '\\d{3})*',
+      valid_whole_dollar_amounts = ['0', whole_dollar_amount_without_sep, whole_dollar_amount_with_sep],
+      whole_dollar_amount = '(' + valid_whole_dollar_amounts.join('|') + ')?',
+      decimal_amount = '(\\' + options.decimal_separator + '\\d{2})?';
+  var pattern = whole_dollar_amount + decimal_amount;
+
+  // default is negative sign before symbol, but there are two other options (besides parens)
+  if (options.allow_negatives && !options.parens_for_negatives) {
+    if (options.negative_sign_after_digits) {
+      pattern += negative;
+    } else if (options.negative_sign_before_digits) {
+      pattern = negative + pattern;
+    }
+  }
+
+  // South African Rand, for example, uses R 123 (space) and R-123 (no space)
+  if (options.allow_negative_sign_placeholder) {
+    pattern = '( (?!\\-))?' + pattern;
+  } else if (options.allow_space_after_symbol) {
+    pattern = ' ?' + pattern;
+  } else if (options.allow_space_after_digits) {
+    pattern += '( (?!$))?';
+  }
+
+  if (options.symbol_after_digits) {
+    pattern += symbol;
+  } else {
+    pattern = symbol + pattern;
+  }
+
+  if (options.allow_negatives) {
+    if (options.parens_for_negatives) {
+      pattern = '(\\(' + pattern + '\\)|' + pattern + ')';
+    } else if (!(options.negative_sign_before_digits || options.negative_sign_after_digits)) {
+      pattern = negative + pattern;
+    }
+  }
+
+  /* eslint-disable prefer-template */
+  return new RegExp('^' +
+  // ensure there's a dollar and/or decimal amount, and that
+  // it doesn't start with a space or a negative sign followed by a space
+  '(?!-? )(?=.*\\d)' + pattern + '$');
+  /* eslint-enable prefer-template */
+}
+
+var default_currency_options = {
+  symbol: '$',
+  require_symbol: false,
+  allow_space_after_symbol: false,
+  symbol_after_digits: false,
+  allow_negatives: true,
+  parens_for_negatives: false,
+  negative_sign_before_digits: false,
+  negative_sign_after_digits: false,
+  allow_negative_sign_placeholder: false,
+  thousands_separator: ',',
+  decimal_separator: '.',
+  allow_space_after_digits: false
+};
+
+function isCurrency(str, options) {
+  (0, _assertString2.default)(str);
+  options = (0, _merge2.default)(options, default_currency_options);
+  return currencyRegex(options).test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226,"./util/merge":227}],183:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isDataURI;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var dataURI = /^\s*data:([a-z]+\/[a-z0-9\-\+]+(;[a-z\-]+\=[a-z0-9\-]+)?)?(;base64)?,[a-z0-9\!\$\&\'\,\(\)\*\+\,\;\=\-\.\_\~\:\@\/\?\%\s]*\s*$/i; // eslint-disable-line max-len
+
+function isDataURI(str) {
+  (0, _assertString2.default)(str);
+  return dataURI.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],184:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isDate;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _isISO = require('./isISO8601');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function getTimezoneOffset(str) {
+  var iso8601Parts = str.match(_isISO.iso8601);
+  var timezone = void 0,
+      sign = void 0,
+      hours = void 0,
+      minutes = void 0;
+  if (!iso8601Parts) {
+    str = str.toLowerCase();
+    timezone = str.match(/(?:\s|gmt\s*)(-|\+)(\d{1,4})(\s|$)/);
+    if (!timezone) {
+      return str.indexOf('gmt') !== -1 ? 0 : null;
+    }
+    sign = timezone[1];
+    var offset = timezone[2];
+    if (offset.length === 3) {
+      offset = '0' + offset;
+    }
+    if (offset.length <= 2) {
+      hours = 0;
+      minutes = parseInt(offset, 10);
+    } else {
+      hours = parseInt(offset.slice(0, 2), 10);
+      minutes = parseInt(offset.slice(2, 4), 10);
+    }
+  } else {
+    timezone = iso8601Parts[21];
+    if (!timezone) {
+      // if no hour/minute was provided, the date is GMT
+      return !iso8601Parts[12] ? 0 : null;
+    }
+    if (timezone === 'z' || timezone === 'Z') {
+      return 0;
+    }
+    sign = iso8601Parts[22];
+    if (timezone.indexOf(':') !== -1) {
+      hours = parseInt(iso8601Parts[23], 10);
+      minutes = parseInt(iso8601Parts[24], 10);
+    } else {
+      hours = 0;
+      minutes = parseInt(iso8601Parts[23], 10);
+    }
+  }
+  return (hours * 60 + minutes) * (sign === '-' ? 1 : -1);
+}
+
+function isDate(str) {
+  (0, _assertString2.default)(str);
+  var normalizedDate = new Date(Date.parse(str));
+  if (isNaN(normalizedDate)) {
+    return false;
+  }
+
+  // normalizedDate is in the user's timezone. Apply the input
+  // timezone offset to the date so that the year and day match
+  // the input
+  var timezoneOffset = getTimezoneOffset(str);
+  if (timezoneOffset !== null) {
+    var timezoneDifference = normalizedDate.getTimezoneOffset() - timezoneOffset;
+    normalizedDate = new Date(normalizedDate.getTime() + 60000 * timezoneDifference);
+  }
+
+  var day = String(normalizedDate.getDate());
+  var dayOrYear = void 0,
+      dayOrYearMatches = void 0,
+      year = void 0;
+  // check for valid double digits that could be late days
+  // check for all matches since a string like '12/23' is a valid date
+  // ignore everything with nearby colons
+  dayOrYearMatches = str.match(/(^|[^:\d])[23]\d([^:\d]|$)/g);
+  if (!dayOrYearMatches) {
+    return true;
+  }
+  dayOrYear = dayOrYearMatches.map(function (digitString) {
+    return digitString.match(/\d+/g)[0];
+  }).join('/');
+
+  year = String(normalizedDate.getFullYear()).slice(-2);
+  if (dayOrYear === day || dayOrYear === year) {
+    return true;
+  } else if (dayOrYear === '' + day / year || dayOrYear === '' + year / day) {
+    return true;
+  }
+  return false;
+}
+module.exports = exports['default'];
+},{"./isISO8601":197,"./util/assertString":226}],185:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isDecimal;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var decimal = /^[-+]?([0-9]+|\.[0-9]+|[0-9]+\.[0-9]+)$/;
+
+function isDecimal(str) {
+  (0, _assertString2.default)(str);
+  return str !== '' && decimal.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],186:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isDivisibleBy;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _toFloat = require('./toFloat');
+
+var _toFloat2 = _interopRequireDefault(_toFloat);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isDivisibleBy(str, num) {
+  (0, _assertString2.default)(str);
+  return (0, _toFloat2.default)(str) % parseInt(num, 10) === 0;
+}
+module.exports = exports['default'];
+},{"./toFloat":222,"./util/assertString":226}],187:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isEmail;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _merge = require('./util/merge');
+
+var _merge2 = _interopRequireDefault(_merge);
+
+var _isByteLength = require('./isByteLength');
+
+var _isByteLength2 = _interopRequireDefault(_isByteLength);
+
+var _isFQDN = require('./isFQDN');
+
+var _isFQDN2 = _interopRequireDefault(_isFQDN);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_email_options = {
+  allow_display_name: false,
+  allow_utf8_local_part: true,
+  require_tld: true
+};
+
+/* eslint-disable max-len */
+var displayName = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\.\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\.\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\s]*<(.+)>$/i;
+var emailUserPart = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~]+$/i;
+var quotedEmailUser = /^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f]))*$/i;
+var emailUserUtf8Part = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+$/i;
+var quotedEmailUserUtf8 = /^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*$/i;
+/* eslint-enable max-len */
+
+function isEmail(str, options) {
+  (0, _assertString2.default)(str);
+  options = (0, _merge2.default)(options, default_email_options);
+
+  if (options.allow_display_name) {
+    var display_email = str.match(displayName);
+    if (display_email) {
+      str = display_email[1];
+    }
+  }
+
+  var parts = str.split('@');
+  var domain = parts.pop();
+  var user = parts.join('@');
+
+  var lower_domain = domain.toLowerCase();
+  if (lower_domain === 'gmail.com' || lower_domain === 'googlemail.com') {
+    user = user.replace(/\./g, '').toLowerCase();
+  }
+
+  if (!(0, _isByteLength2.default)(user, { max: 64 }) || !(0, _isByteLength2.default)(domain, { max: 256 })) {
+    return false;
+  }
+
+  if (!(0, _isFQDN2.default)(domain, { require_tld: options.require_tld })) {
+    return false;
+  }
+
+  if (user[0] === '"') {
+    user = user.slice(1, user.length - 1);
+    return options.allow_utf8_local_part ? quotedEmailUserUtf8.test(user) : quotedEmailUser.test(user);
+  }
+
+  var pattern = options.allow_utf8_local_part ? emailUserUtf8Part : emailUserPart;
+
+  var user_parts = user.split('.');
+  for (var i = 0; i < user_parts.length; i++) {
+    if (!pattern.test(user_parts[i])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+module.exports = exports['default'];
+},{"./isByteLength":180,"./isFQDN":188,"./util/assertString":226,"./util/merge":227}],188:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isFDQN;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _merge = require('./util/merge');
+
+var _merge2 = _interopRequireDefault(_merge);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_fqdn_options = {
+  require_tld: true,
+  allow_underscores: false,
+  allow_trailing_dot: false
+};
+
+function isFDQN(str, options) {
+  (0, _assertString2.default)(str);
+  options = (0, _merge2.default)(options, default_fqdn_options);
+
+  /* Remove the optional trailing dot before checking validity */
+  if (options.allow_trailing_dot && str[str.length - 1] === '.') {
+    str = str.substring(0, str.length - 1);
+  }
+  var parts = str.split('.');
+  if (options.require_tld) {
+    var tld = parts.pop();
+    if (!parts.length || !/^([a-z\u00a1-\uffff]{2,}|xn[a-z0-9-]{2,})$/i.test(tld)) {
+      return false;
+    }
+  }
+  for (var part, i = 0; i < parts.length; i++) {
+    part = parts[i];
+    if (options.allow_underscores) {
+      part = part.replace(/_/g, '');
+    }
+    if (!/^[a-z\u00a1-\uffff0-9-]+$/i.test(part)) {
+      return false;
+    }
+    if (/[\uff01-\uff5e]/.test(part)) {
+      // disallow full-width chars
+      return false;
+    }
+    if (part[0] === '-' || part[part.length - 1] === '-') {
+      return false;
+    }
+  }
+  return true;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226,"./util/merge":227}],189:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isFloat;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var float = /^(?:[-+]?(?:[0-9]+))?(?:\.[0-9]*)?(?:[eE][\+\-]?(?:[0-9]+))?$/;
+
+function isFloat(str, options) {
+  (0, _assertString2.default)(str);
+  options = options || {};
+  if (str === '' || str === '.') {
+    return false;
+  }
+  return float.test(str) && (!options.hasOwnProperty('min') || str >= options.min) && (!options.hasOwnProperty('max') || str <= options.max);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],190:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.fullWidth = undefined;
+exports.default = isFullWidth;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var fullWidth = exports.fullWidth = /[^\u0020-\u007E\uFF61-\uFF9F\uFFA0-\uFFDC\uFFE8-\uFFEE0-9a-zA-Z]/;
+
+function isFullWidth(str) {
+  (0, _assertString2.default)(str);
+  return fullWidth.test(str);
+}
+},{"./util/assertString":226}],191:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.halfWidth = undefined;
+exports.default = isHalfWidth;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var halfWidth = exports.halfWidth = /[\u0020-\u007E\uFF61-\uFF9F\uFFA0-\uFFDC\uFFE8-\uFFEE0-9a-zA-Z]/;
+
+function isHalfWidth(str) {
+  (0, _assertString2.default)(str);
+  return halfWidth.test(str);
+}
+},{"./util/assertString":226}],192:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isHexColor;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var hexcolor = /^#?([0-9A-F]{3}|[0-9A-F]{6})$/i;
+
+function isHexColor(str) {
+  (0, _assertString2.default)(str);
+  return hexcolor.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],193:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isHexadecimal;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var hexadecimal = /^[0-9A-F]+$/i;
+
+function isHexadecimal(str) {
+  (0, _assertString2.default)(str);
+  return hexadecimal.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],194:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isIP;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ipv4Maybe = /^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/;
+var ipv6Block = /^[0-9A-F]{1,4}$/i;
+
+function isIP(str) {
+  var version = arguments.length <= 1 || arguments[1] === undefined ? '' : arguments[1];
+
+  (0, _assertString2.default)(str);
+  version = String(version);
+  if (!version) {
+    return isIP(str, 4) || isIP(str, 6);
+  } else if (version === '4') {
+    if (!ipv4Maybe.test(str)) {
+      return false;
+    }
+    var parts = str.split('.').sort(function (a, b) {
+      return a - b;
+    });
+    return parts[3] <= 255;
+  } else if (version === '6') {
+    var blocks = str.split(':');
+    var foundOmissionBlock = false; // marker to indicate ::
+
+    // At least some OS accept the last 32 bits of an IPv6 address
+    // (i.e. 2 of the blocks) in IPv4 notation, and RFC 3493 says
+    // that '::ffff:a.b.c.d' is valid for IPv4-mapped IPv6 addresses,
+    // and '::a.b.c.d' is deprecated, but also valid.
+    var foundIPv4TransitionBlock = isIP(blocks[blocks.length - 1], 4);
+    var expectedNumberOfBlocks = foundIPv4TransitionBlock ? 7 : 8;
+
+    if (blocks.length > expectedNumberOfBlocks) {
+      return false;
+    }
+    // initial or final ::
+    if (str === '::') {
+      return true;
+    } else if (str.substr(0, 2) === '::') {
+      blocks.shift();
+      blocks.shift();
+      foundOmissionBlock = true;
+    } else if (str.substr(str.length - 2) === '::') {
+      blocks.pop();
+      blocks.pop();
+      foundOmissionBlock = true;
+    }
+
+    for (var i = 0; i < blocks.length; ++i) {
+      // test for a :: which can not be at the string start/end
+      // since those cases have been handled above
+      if (blocks[i] === '' && i > 0 && i < blocks.length - 1) {
+        if (foundOmissionBlock) {
+          return false; // multiple :: in address
+        }
+        foundOmissionBlock = true;
+      } else if (foundIPv4TransitionBlock && i === blocks.length - 1) {
+        // it has been checked before that the last
+        // block is a valid IPv4 address
+      } else if (!ipv6Block.test(blocks[i])) {
+          return false;
+        }
+    }
+    if (foundOmissionBlock) {
+      return blocks.length >= 1;
+    }
+    return blocks.length === expectedNumberOfBlocks;
+  }
+  return false;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],195:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isISBN;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var isbn10Maybe = /^(?:[0-9]{9}X|[0-9]{10})$/;
+var isbn13Maybe = /^(?:[0-9]{13})$/;
+var factor = [1, 3];
+
+function isISBN(str) {
+  var version = arguments.length <= 1 || arguments[1] === undefined ? '' : arguments[1];
+
+  (0, _assertString2.default)(str);
+  version = String(version);
+  if (!version) {
+    return isISBN(str, 10) || isISBN(str, 13);
+  }
+  var sanitized = str.replace(/[\s-]+/g, '');
+  var checksum = 0;
+  var i = void 0;
+  if (version === '10') {
+    if (!isbn10Maybe.test(sanitized)) {
+      return false;
+    }
+    for (i = 0; i < 9; i++) {
+      checksum += (i + 1) * sanitized.charAt(i);
+    }
+    if (sanitized.charAt(9) === 'X') {
+      checksum += 10 * 10;
+    } else {
+      checksum += 10 * sanitized.charAt(9);
+    }
+    if (checksum % 11 === 0) {
+      return !!sanitized;
+    }
+  } else if (version === '13') {
+    if (!isbn13Maybe.test(sanitized)) {
+      return false;
+    }
+    for (i = 0; i < 12; i++) {
+      checksum += factor[i % 2] * sanitized.charAt(i);
+    }
+    if (sanitized.charAt(12) - (10 - checksum % 10) % 10 === 0) {
+      return !!sanitized;
+    }
+  }
+  return false;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],196:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isISIN;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var isin = /^[A-Z]{2}[0-9A-Z]{9}[0-9]$/;
+
+function isISIN(str) {
+  (0, _assertString2.default)(str);
+  if (!isin.test(str)) {
+    return false;
+  }
+
+  var checksumStr = str.replace(/[A-Z]/g, function (character) {
+    return parseInt(character, 36);
+  });
+
+  var sum = 0;
+  var digit = void 0;
+  var tmpNum = void 0;
+  var shouldDouble = true;
+  for (var i = checksumStr.length - 2; i >= 0; i--) {
+    digit = checksumStr.substring(i, i + 1);
+    tmpNum = parseInt(digit, 10);
+    if (shouldDouble) {
+      tmpNum *= 2;
+      if (tmpNum >= 10) {
+        sum += tmpNum + 1;
+      } else {
+        sum += tmpNum;
+      }
+    } else {
+      sum += tmpNum;
+    }
+    shouldDouble = !shouldDouble;
+  }
+
+  return parseInt(str.substr(str.length - 1), 10) === (10000 - sum) % 10;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],197:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.iso8601 = undefined;
+
+exports.default = function (str) {
+  (0, _assertString2.default)(str);
+  return iso8601.test(str);
+};
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable max-len */
+// from http://goo.gl/0ejHHW
+var iso8601 = exports.iso8601 = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
+/* eslint-enable max-len */
+},{"./util/assertString":226}],198:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+exports.default = isIn;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _toString = require('./util/toString');
+
+var _toString2 = _interopRequireDefault(_toString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isIn(str, options) {
+  (0, _assertString2.default)(str);
+  var i = void 0;
+  if (Object.prototype.toString.call(options) === '[object Array]') {
+    var array = [];
+    for (i in options) {
+      if ({}.hasOwnProperty.call(options, i)) {
+        array[i] = (0, _toString2.default)(options[i]);
+      }
+    }
+    return array.indexOf(str) >= 0;
+  } else if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) === 'object') {
+    return options.hasOwnProperty(str);
+  } else if (options && typeof options.indexOf === 'function') {
+    return options.indexOf(str) >= 0;
+  }
+  return false;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226,"./util/toString":228}],199:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isInt;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var int = /^(?:[-+]?(?:0|[1-9][0-9]*))$/;
+
+function isInt(str, options) {
+  (0, _assertString2.default)(str);
+  options = options || {};
+  return int.test(str) && (!options.hasOwnProperty('min') || str >= options.min) && (!options.hasOwnProperty('max') || str <= options.max);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],200:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+exports.default = isJSON;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isJSON(str) {
+  (0, _assertString2.default)(str);
+  try {
+    var obj = JSON.parse(str);
+    return !!obj && (typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) === 'object';
+  } catch (e) {/* ignore */}
+  return false;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],201:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+exports.default = isLength;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable prefer-rest-params */
+function isLength(str, options) {
+  (0, _assertString2.default)(str);
+  var min = void 0;
+  var max = void 0;
+  if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) === 'object') {
+    min = options.min || 0;
+    max = options.max;
+  } else {
+    // backwards compatibility: isLength(str, min [, max])
+    min = arguments[1];
+    max = arguments[2];
+  }
+  var surrogatePairs = str.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g) || [];
+  var len = str.length - surrogatePairs.length;
+  return len >= min && (typeof max === 'undefined' || len <= max);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],202:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isLowercase;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isLowercase(str) {
+  (0, _assertString2.default)(str);
+  return str === str.toLowerCase();
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],203:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isMACAddress;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var macAddress = /^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/;
+
+function isMACAddress(str) {
+  (0, _assertString2.default)(str);
+  return macAddress.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],204:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isMobilePhone;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable max-len */
+var phones = {
+  'ar-SY': /^(!?(\+?963)|0)?9\d{8}$/,
+  'en-US': /^(\+?1)?[2-9]\d{2}[2-9](?!11)\d{6}$/,
+  'cs-CZ': /^(\+?420)? ?[1-9][0-9]{2} ?[0-9]{3} ?[0-9]{3}$/,
+  'de-DE': /^(\+?49[ \.\-])?([\(]{1}[0-9]{1,6}[\)])?([0-9 \.\-\/]{3,20})((x|ext|extension)[ ]?[0-9]{1,4})?$/,
+  'el-GR': /^(\+?30)?(69\d{8})$/,
+  'en-AU': /^(\+?61|0)4\d{8}$/,
+  'en-GB': /^(\+?44|0)7\d{9}$/,
+  'en-HK': /^(\+?852\-?)?[569]\d{3}\-?\d{4}$/,
+  'en-IN': /^(\+?91|0)?[789]\d{9}$/,
+  'en-NZ': /^(\+?64|0)2\d{7,9}$/,
+  'en-ZA': /^(\+?27|0)\d{9}$/,
+  'en-ZM': /^(\+?26)?09[567]\d{7}$/,
+  'es-ES': /^(\+?34)?(6\d{1}|7[1234])\d{7}$/,
+  'fi-FI': /^(\+?358|0)\s?(4(0|1|2|4|5)?|50)\s?(\d\s?){4,8}\d$/,
+  'fr-FR': /^(\+?33|0)[67]\d{8}$/,
+  'ms-MY': /^(\+?6?01){1}(([145]{1}(\-|\s)?\d{7,8})|([236789]{1}(\s|\-)?\d{7}))$/,
+  'nb-NO': /^(\+?47)?[49]\d{7}$/,
+  'nn-NO': /^(\+?47)?[49]\d{7}$/,
+  'pt-BR': /^(\+?55|0)\-?[1-9]{2}\-?[2-9]{1}\d{3,4}\-?\d{4}$/,
+  'pt-PT': /^(\+?351)?9[1236]\d{7}$/,
+  'ru-RU': /^(\+?7|8)?9\d{9}$/,
+  'tr-TR': /^(\+?90|0)?5\d{9}$/,
+  'vi-VN': /^(\+?84|0)?((1(2([0-9])|6([2-9])|88|99))|(9((?!5)[0-9])))([0-9]{7})$/,
+  'zh-CN': /^(\+?0?86\-?)?((13\d|14[57]|15[^4,\D]|17[678]|18\d)\d{8}|170[059]\d{7})$/,
+  'zh-TW': /^(\+?886\-?|0)?9\d{8}$/
+};
+/* eslint-enable max-len */
+
+function isMobilePhone(str, locale) {
+  (0, _assertString2.default)(str);
+  if (locale in phones) {
+    return phones[locale].test(str);
+  }
+  return false;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],205:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isMongoId;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _isHexadecimal = require('./isHexadecimal');
+
+var _isHexadecimal2 = _interopRequireDefault(_isHexadecimal);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isMongoId(str) {
+  (0, _assertString2.default)(str);
+  return (0, _isHexadecimal2.default)(str) && str.length === 24;
+}
+module.exports = exports['default'];
+},{"./isHexadecimal":193,"./util/assertString":226}],206:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isMultibyte;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var multibyte = /[^\x00-\x7F]/;
+
+function isMultibyte(str) {
+  (0, _assertString2.default)(str);
+  return multibyte.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],207:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isNull;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isNull(str) {
+  (0, _assertString2.default)(str);
+  return str.length === 0;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],208:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isNumeric;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var numeric = /^[-+]?[0-9]+$/;
+
+function isNumeric(str) {
+  (0, _assertString2.default)(str);
+  return numeric.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],209:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isSurrogatePair;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var surrogatePair = /[\uD800-\uDBFF][\uDC00-\uDFFF]/;
+
+function isSurrogatePair(str) {
+  (0, _assertString2.default)(str);
+  return surrogatePair.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],210:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isURL;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _isFQDN = require('./isFQDN');
+
+var _isFQDN2 = _interopRequireDefault(_isFQDN);
+
+var _isIP = require('./isIP');
+
+var _isIP2 = _interopRequireDefault(_isIP);
+
+var _merge = require('./util/merge');
+
+var _merge2 = _interopRequireDefault(_merge);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_url_options = {
+  protocols: ['http', 'https', 'ftp'],
+  require_tld: true,
+  require_protocol: false,
+  require_valid_protocol: true,
+  allow_underscores: false,
+  allow_trailing_dot: false,
+  allow_protocol_relative_urls: false
+};
+
+function isURL(url, options) {
+  (0, _assertString2.default)(url);
+  if (!url || url.length >= 2083 || /\s/.test(url)) {
+    return false;
+  }
+  if (url.indexOf('mailto:') === 0) {
+    return false;
+  }
+  options = (0, _merge2.default)(options, default_url_options);
+  var protocol = void 0,
+      auth = void 0,
+      host = void 0,
+      hostname = void 0,
+      port = void 0,
+      port_str = void 0,
+      split = void 0;
+
+  split = url.split('#');
+  url = split.shift();
+
+  split = url.split('?');
+  url = split.shift();
+
+  split = url.split('://');
+  if (split.length > 1) {
+    protocol = split.shift();
+    if (options.require_valid_protocol && options.protocols.indexOf(protocol) === -1) {
+      return false;
+    }
+  } else if (options.require_protocol) {
+    return false;
+  } else if (options.allow_protocol_relative_urls && url.substr(0, 2) === '//') {
+    split[0] = url.substr(2);
+  }
+  url = split.join('://');
+
+  split = url.split('/');
+  url = split.shift();
+  split = url.split('@');
+  if (split.length > 1) {
+    auth = split.shift();
+    if (auth.indexOf(':') >= 0 && auth.split(':').length > 2) {
+      return false;
+    }
+  }
+  hostname = split.join('@');
+  split = hostname.split(':');
+  host = split.shift();
+  if (split.length) {
+    port_str = split.join(':');
+    port = parseInt(port_str, 10);
+    if (!/^[0-9]+$/.test(port_str) || port <= 0 || port > 65535) {
+      return false;
+    }
+  }
+  if (!(0, _isIP2.default)(host) && !(0, _isFQDN2.default)(host, options) && host !== 'localhost') {
+    return false;
+  }
+  if (options.host_whitelist && options.host_whitelist.indexOf(host) === -1) {
+    return false;
+  }
+  if (options.host_blacklist && options.host_blacklist.indexOf(host) !== -1) {
+    return false;
+  }
+  return true;
+}
+module.exports = exports['default'];
+},{"./isFQDN":188,"./isIP":194,"./util/assertString":226,"./util/merge":227}],211:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isUUID;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var uuid = {
+  3: /^[0-9A-F]{8}-[0-9A-F]{4}-3[0-9A-F]{3}-[0-9A-F]{4}-[0-9A-F]{12}$/i,
+  4: /^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i,
+  5: /^[0-9A-F]{8}-[0-9A-F]{4}-5[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i,
+  all: /^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/i
+};
+
+function isUUID(str) {
+  var version = arguments.length <= 1 || arguments[1] === undefined ? 'all' : arguments[1];
+
+  (0, _assertString2.default)(str);
+  var pattern = uuid[version];
+  return pattern && pattern.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],212:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isUppercase;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isUppercase(str) {
+  (0, _assertString2.default)(str);
+  return str === str.toUpperCase();
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],213:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isVariableWidth;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _isFullWidth = require('./isFullWidth');
+
+var _isHalfWidth = require('./isHalfWidth');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isVariableWidth(str) {
+  (0, _assertString2.default)(str);
+  return _isFullWidth.fullWidth.test(str) && _isHalfWidth.halfWidth.test(str);
+}
+module.exports = exports['default'];
+},{"./isFullWidth":190,"./isHalfWidth":191,"./util/assertString":226}],214:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isWhitelisted;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function isWhitelisted(str, chars) {
+  (0, _assertString2.default)(str);
+  for (var i = str.length - 1; i >= 0; i--) {
+    if (chars.indexOf(str[i]) === -1) {
+      return false;
+    }
+  }
+  return true;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],215:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ltrim;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ltrim(str, chars) {
+  (0, _assertString2.default)(str);
+  var pattern = chars ? new RegExp('^[' + chars + ']+', 'g') : /^\s+/g;
+  return str.replace(pattern, '');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],216:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = matches;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function matches(str, pattern, modifiers) {
+  (0, _assertString2.default)(str);
+  if (Object.prototype.toString.call(pattern) !== '[object RegExp]') {
+    pattern = new RegExp(pattern, modifiers);
+  }
+  return pattern.test(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],217:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = normalizeEmail;
+
+var _isEmail = require('./isEmail');
+
+var _isEmail2 = _interopRequireDefault(_isEmail);
+
+var _merge = require('./util/merge');
+
+var _merge2 = _interopRequireDefault(_merge);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_normalize_email_options = {
+  lowercase: true,
+  remove_dots: true,
+  remove_extension: true
+};
+
+function normalizeEmail(email, options) {
+  options = (0, _merge2.default)(options, default_normalize_email_options);
+  if (!(0, _isEmail2.default)(email)) {
+    return false;
+  }
+  var parts = email.split('@', 2);
+  parts[1] = parts[1].toLowerCase();
+  if (parts[1] === 'gmail.com' || parts[1] === 'googlemail.com') {
+    if (options.remove_extension) {
+      parts[0] = parts[0].split('+')[0];
+    }
+    if (options.remove_dots) {
+      parts[0] = parts[0].replace(/\./g, '');
+    }
+    if (!parts[0].length) {
+      return false;
+    }
+    parts[0] = parts[0].toLowerCase();
+    parts[1] = 'gmail.com';
+  } else if (options.lowercase) {
+    parts[0] = parts[0].toLowerCase();
+  }
+  return parts.join('@');
+}
+module.exports = exports['default'];
+},{"./isEmail":187,"./util/merge":227}],218:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = rtrim;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function rtrim(str, chars) {
+  (0, _assertString2.default)(str);
+  var pattern = chars ? new RegExp('[' + chars + ']+$', 'g') : /\s+$/g;
+  return str.replace(pattern, '');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],219:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = stripLow;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+var _blacklist = require('./blacklist');
+
+var _blacklist2 = _interopRequireDefault(_blacklist);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function stripLow(str, keep_new_lines) {
+  (0, _assertString2.default)(str);
+  var chars = keep_new_lines ? '\\x00-\\x09\\x0B\\x0C\\x0E-\\x1F\\x7F' : '\\x00-\\x1F\\x7F';
+  return (0, _blacklist2.default)(str, chars);
+}
+module.exports = exports['default'];
+},{"./blacklist":169,"./util/assertString":226}],220:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = toBoolean;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function toBoolean(str, strict) {
+  (0, _assertString2.default)(str);
+  if (strict) {
+    return str === '1' || str === 'true';
+  }
+  return str !== '0' && str !== 'false' && str !== '';
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],221:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = toDate;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function toDate(date) {
+  (0, _assertString2.default)(date);
+  date = Date.parse(date);
+  return !isNaN(date) ? new Date(date) : null;
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],222:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = toFloat;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function toFloat(str) {
+  (0, _assertString2.default)(str);
+  return parseFloat(str);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],223:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = toInt;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function toInt(str, radix) {
+  (0, _assertString2.default)(str);
+  return parseInt(str, radix || 10);
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],224:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = trim;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function trim(str, chars) {
+  (0, _assertString2.default)(str);
+  var pattern = chars ? new RegExp('^[' + chars + ']+|[' + chars + ']+$', 'g') : /^\s+|\s+$/g;
+  return str.replace(pattern, '');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],225:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+      value: true
+});
+exports.default = unescape;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function unescape(str) {
+      (0, _assertString2.default)(str);
+      return str.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#x2F;/g, '\/').replace(/&#96;/g, '\`');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],226:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = assertString;
+function assertString(input) {
+  if (typeof input !== 'string') {
+    throw new TypeError('This library (validator.js) validates strings only');
+  }
+}
+module.exports = exports['default'];
+},{}],227:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = merge;
+function merge() {
+  var obj = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var defaults = arguments[1];
+
+  for (var key in defaults) {
+    if (typeof obj[key] === 'undefined') {
+      obj[key] = defaults[key];
+    }
+  }
+  return obj;
+}
+module.exports = exports['default'];
+},{}],228:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+exports.default = toString;
+function toString(input) {
+  if ((typeof input === 'undefined' ? 'undefined' : _typeof(input)) === 'object' && input !== null) {
+    if (typeof input.toString === 'function') {
+      input = input.toString();
+    } else {
+      input = '[object Object]';
+    }
+  } else if (input === null || typeof input === 'undefined' || isNaN(input) && !input.length) {
+    input = '';
+  }
+  return String(input);
+}
+module.exports = exports['default'];
+},{}],229:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = whitelist;
+
+var _assertString = require('./util/assertString');
+
+var _assertString2 = _interopRequireDefault(_assertString);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function whitelist(str, chars) {
+  (0, _assertString2.default)(str);
+  return str.replace(new RegExp('[^' + chars + ']+', 'g'), '');
+}
+module.exports = exports['default'];
+},{"./util/assertString":226}],230:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -19403,6 +21632,9 @@ var currentQueue;
 var queueIndex = -1;
 
 function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
     draining = false;
     if (currentQueue.length) {
         queue = currentQueue.concat(queue);
@@ -19486,67 +21718,238 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],168:[function(require,module,exports){
+},{}],231:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
-var ListItem = require('./ListItem.jsx');
 
-var ingredients = [{ "id": 1, "text": "ham", "price": "$0.75" }, { "id": 2, "text": "cheese", "price": "$0.25" }, { "id": 3, "text": "potatoes", "price": "$1.75" }, { "id": 4, "text": "potpie", "price": "$2.50" }];
+var NumberField = require('./NumberField.jsx');
+var ResultField = require('./ResultField.jsx');
 
-var List = React.createClass({
-  displayName: 'List',
+var Calc = React.createClass({
+  displayName: 'Calc',
 
-  render: function render() {
-    var listItems = ingredients.map(function (item) {
-      return React.createElement(ListItem, { key: item.id, ingredient: item.text, price: item.price });
-    });
+  getInitialState: function getInitialState() {
+    return { resultValue: "" };
+  },
 
-    return React.createElement(
-      'ul',
-      null,
-      listItems
-    );
-  }
-});
+  onCalc: function onCalc(operator) {
+    var firstNumber = parseFloat(this.refs.firstNumberField.state.valueOfInput);
+    var secondNumber = parseFloat(this.refs.secondNumberField.state.valueOfInput);
+    var result;
 
-module.exports = List;
+    switch (operator) {
+      case "add":
+        result = firstNumber + secondNumber;
+        break;
+      case "sub":
+        result = firstNumber - secondNumber;
+        break;
+      case "div":
+        if (secondNumber != 0) {
+          result = firstNumber / secondNumber;
+          break;
+        } else {
+          result = "Can't divide by 0";
+          break;
+        }
+      case "mult":
+        result = firstNumber * secondNumber;
+        break;
+      default:
+        break;
+    }
+    this.setState({ resultCalc: result.toString() });
+  },
 
-},{"./ListItem.jsx":169,"react":166}],169:[function(require,module,exports){
-'use strict';
-
-var React = require('react');
-var ListItem = React.createClass({
-  displayName: 'ListItem',
-
-  propTypes: {
-    ingredient: React.PropTypes.string,
-    price: React.PropTypes.string
+  onClear: function onClear() {
+    this.refs.firstNumberField.clear();
+    this.refs.secondNumberField.clear();
+    this.setState({ resultCalc: "" });
   },
   render: function render() {
+    var _this = this;
+
     return React.createElement(
-      'li',
-      null,
+      'div',
+      { className: 'container' },
       React.createElement(
-        'h4',
-        null,
-        this.props.ingredient,
-        ' - ',
-        this.props.price
+        'div',
+        { className: 'panel panel-default' },
+        React.createElement(
+          'div',
+          { style: { background: "#F2F2F8" }, className: 'panel-body' },
+          React.createElement(
+            'h1',
+            { className: 'text-center' },
+            'Simple Calculator'
+          ),
+          React.createElement(
+            'div',
+            { className: 'row form-group number-field' },
+            React.createElement(NumberField, { ref: 'firstNumberField', placeholder: 'NUMBER e.g. 2643' }),
+            React.createElement(NumberField, { ref: 'secondNumberField', placeholder: 'NUMBER e.g. 6306' })
+          ),
+          React.createElement(
+            'div',
+            { className: 'row' },
+            React.createElement(
+              'div',
+              { className: 'col-sm-3' },
+              React.createElement(
+                'button',
+                { type: 'button', className: 'btn btn-primary', style: { width: "100%" }, onClick: function onClick() {
+                    return _this.onCalc("add");
+                  } },
+                '+ Add'
+              )
+            ),
+            React.createElement(
+              'div',
+              { className: 'col-sm-3' },
+              React.createElement(
+                'button',
+                { type: 'button', className: 'btn btn-primary', style: { width: "100%" }, onClick: function onClick() {
+                    return _this.onCalc("sub");
+                  } },
+                '- Subtract'
+              )
+            ),
+            React.createElement(
+              'div',
+              { className: 'col-sm-3' },
+              React.createElement(
+                'button',
+                { type: 'button', className: 'btn btn-primary', style: { width: "100%" }, onClick: function onClick() {
+                    return _this.onCalc("div");
+                  } },
+                '/ Divide'
+              )
+            ),
+            React.createElement(
+              'div',
+              { className: 'col-sm-3' },
+              React.createElement(
+                'button',
+                { type: 'button', className: 'btn btn-primary', style: { width: "100%" }, onClick: function onClick() {
+                    return _this.onCalc("mult");
+                  } },
+                '* Multiply'
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { style: { marginTop: 20 }, className: 'row form-group' },
+            React.createElement(ResultField, { resultValue: this.state.resultCalc }),
+            React.createElement(
+              'div',
+              { className: 'col-sm-3' },
+              React.createElement(
+                'button',
+                { type: 'button', className: 'btn btn-danger btn-lg', style: { width: "100%" }, onClick: this.onClear },
+                'Clear'
+              )
+            )
+          )
+        )
       )
     );
   }
 });
 
-module.exports = ListItem;
+module.exports = Calc;
 
-},{"react":166}],170:[function(require,module,exports){
+},{"./NumberField.jsx":232,"./ResultField.jsx":233,"react":166}],232:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var validator = require('validator');
+
+var NumberField = React.createClass({
+  displayName: 'NumberField',
+
+  propTypes: {
+    placeholder: React.PropTypes.string
+  },
+
+  getInitialState: function getInitialState() {
+    return { valueOfInput: "", valid: true };
+  },
+
+  onInput: function onInput(e) {
+    var val = e.target.value;
+    if (validator.isFloat(val) || val == "") {
+      this.setState({ valueOfInput: val, valid: true });
+    } else {
+      this.setState({ valueOfInput: val, valid: false });
+    }
+  },
+
+  clear: function clear() {
+    this.setState({ valueOfInput: "" });
+  },
+
+  render: function render() {
+    var warning;
+    if (!this.state.valid) {
+      warning = React.createElement(
+        'div',
+        { style: { marginTop: 5, marginBottom: 0 }, className: 'alert alert-danger', role: 'alert' },
+        React.createElement('span', { className: 'glyphicon glyphicon-exclamation-sign' }),
+        React.createElement(
+          'strong',
+          null,
+          'Shiza! '
+        ),
+        'That\'s not a number!'
+      );
+    }
+    return React.createElement(
+      'div',
+      { className: this.state.valid ? "col-sm-6" : "col-sm-6 has-error" },
+      React.createElement('input', { className: 'form-control input-lg', type: 'text', placeholder: this.props.placeholder, onChange: this.onInput, value: this.state.valueOfInput }),
+      React.createElement(
+        'div',
+        null,
+        warning
+      )
+    );
+  }
+});
+
+module.exports = NumberField;
+
+},{"react":166,"validator":167}],233:[function(require,module,exports){
+"use strict";
+
+var React = require('react');
+
+var ResultField = React.createClass({
+  displayName: "ResultField",
+
+  propTypes: {
+    resultValue: React.PropTypes.string
+  },
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "col-sm-9" },
+      React.createElement("input", { className: "form-control input-lg", placeholder: "Result of calculation here...", value: this.props.resultValue ? this.props.resultValue : "", readOnly: true })
+    );
+  }
+});
+
+module.exports = ResultField;
+
+},{"react":166}],234:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List = require('./components/List.jsx');
+var Calc = require('./components/Calc.jsx');
 
-ReactDOM.render(React.createElement(List, null), document.getElementById('ingredients'));
+ReactDOM.render(React.createElement(Calc, null), document.getElementById('main'));
 
-},{"./components/List.jsx":168,"react":166,"react-dom":1}]},{},[170]);
+},{"./components/Calc.jsx":231,"react":166,"react-dom":1}]},{},[234]);
